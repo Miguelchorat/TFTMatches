@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TFTMatches</string>
+    <string name="stats">Estadísticas</string>
+    <string name="summonername">Nombre invocador</string>
+    <string name="wins">Ganadas</string>
+    <string name="losses">Perdidas</string>
+    <string name="rank">Rango</string>
+    <string name="position1">Primer lugar</string>
+    <string name="position2">Segundo lugar</string>
+    <string name="position3">Tercer lugar</string>
+    <string name="position4">Cuarto lugar</string>
+    <string name="position5">Quinto lugar</string>
+    <string name="position6">Sexto lugar</string>
+    <string name="position7">Septimo lugar</string>
+    <string name="position8">Octavo lugar</string>
+    <string name="history">Historial</string>
+    <string name="playthegame">No tiene partidas registradas</string>
+    <string name="internet">No tienes conexión a internet</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="fav">Favoritos</string>
+    <string name="delete">Borrar</string>
+    <string name="addmatches">Añade una partida</string>
+    <string name="date">Fecha</string>
+    <string name="level">Nivel</string>
+    <string name="filter">Buscar</string>
+</resources>

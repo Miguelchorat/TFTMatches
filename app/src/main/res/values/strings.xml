@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TFTMatches</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="stats">Stats</string>
+    <string name="summonername">Summoner name</string>
+    <string name="tier" translatable="false">Tier</string>
+    <string name="lp" translatable="false">LP</string>
+    <string name="wins">Wins</string>
+    <string name="losses">Losses</string>
+    <string name="rank">Rank</string>
+    <string name="position1">First place</string>
+    <string name="position2">Second place</string>
+    <string name="position3">Third place</string>
+    <string name="position4">Fourth place</string>
+    <string name="position5">Fifth place</string>
+    <string name="position6">Sixth place</string>
+    <string name="position7">Seventh place</string>
+    <string name="position8">Eighth place</string>
+    <string name="history">History</string>
+    <string name="playthegame">It hasn\'t registered matches</string>
+    <string name="internet">You havent internet connection</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="fav">Favourites</string>
+    <string name="delete">Delete</string>
+    <string name="addmatches">Add a match</string>
+    <string name="date">Date</string>
+    <string name="level">Level</string>
+    <string name="filter">Search</string>
+</resources>

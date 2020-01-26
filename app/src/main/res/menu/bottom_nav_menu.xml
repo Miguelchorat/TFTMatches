@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_rank"
+        android:icon="@drawable/emblem_gold"
+        android:title="@string/rank" />
+
+    <item
+        android:id="@+id/navigation_history"
+        android:icon="@drawable/busqueda"
+        android:title="@string/history" />
+
+    <item
+        android:id="@+id/navigation_fav"
+        android:icon="@drawable/fav"
+        android:title="@string/fav"/>
+</menu>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearFav"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".fragment.FragmentFav">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/fav"
+        android:layout_weight="1.5"
+        android:fontFamily="@font/concert_one"
+        android:textSize="34sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/colorGold"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:background="@drawable/border_background">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/busqueda"/>
+            <EditText
+                android:id="@+id/filter"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:hint="@string/filter"
+                android:textColorHint="@color/colorGold"
+                android:layout_height="48dp"
+                android:background="@null"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/sendFilter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:src="@drawable/send"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view_fav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            />
+
+        <LinearLayout
+            android:id="@+id/emptyView_fav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgEmpty_fav"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/pengu"
+                android:layout_marginTop="48dp"
+                android:gravity="center">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/emptyText_fav"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="24dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/addmatches"
+                android:textColor="@color/colorGold"
+                android:textSize="44sp"
+                app:fontFamily="@font/concert_one" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
