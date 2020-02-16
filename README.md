@@ -8,6 +8,6 @@ La aplicación se divide en cuatro partes :
   -Rango:  El usuario podrá ver las estadísticas del jugador ingresado ya sean sus victorias , derrotas , etc..
   -Favoritos: Las partidas guardadas por el usuario.
   
-Iconos : flaticon.com
+Iconos : www.flaticon.com
 
-Aplicación inusable al no tener generada las api_keys.
+Para poder hacer uso de la aplicación hay que general manualmente una key para poder tener acceso a los servidores del juego.
